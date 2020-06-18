@@ -104,6 +104,9 @@
 #include <igl/writePLY.h>
 #include <igl/readPLY.h>
 #include <igl/seam_edges.h>
+#include <igl/isolines.h>
+#include <igl/writeDMAT.h>
+#include <igl/remove_unreferenced.h>
 
 void python_export_igl(py::module &m)
 {
