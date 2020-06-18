@@ -160,6 +160,9 @@ PYBIND11_PLUGIN(pyigl) {
            writeOBJ
            writePLY
            readPLY
+           isolines
+           writeDMAT
+           remove_unreferenced
 
     )pyigldoc");
 

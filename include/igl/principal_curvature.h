@@ -83,6 +83,16 @@ IGL_INLINE void principal_curvature(
   unsigned radius = 5,
   bool useKring = true);
 
+IGL_INLINE void principal_curvature2(
+  const Eigen::MatrixXd &V,
+  const Eigen::MatrixXi &F,
+  Eigen::MatrixXd &PD1,
+  Eigen::MatrixXd &PD2,
+  Eigen::MatrixXd &PV1,
+  Eigen::MatrixXd &PV2,
+  unsigned radius = 5,
+  bool useKring = true);
+
 }
 
 

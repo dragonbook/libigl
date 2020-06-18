@@ -43,6 +43,20 @@ namespace igl
                              const int n,
                              Eigen::PlainObjectBase<DerivedIsoV>& isoV,
                              Eigen::PlainObjectBase<DerivedIsoE>& isoE);
+
+    template <typename DerivedV,
+    typename DerivedF,
+    typename DerivedZ,
+    typename DerivedIsoV,
+    typename DerivedIsoE>
+    IGL_INLINE void isolines(
+                             const Eigen::MatrixBase<DerivedV>& V,
+                             const Eigen::MatrixBase<DerivedF>& F,
+                             const Eigen::MatrixBase<DerivedZ>& z,
+                             const std::vector<double> &values,
+                             Eigen::PlainObjectBase<DerivedIsoV>& isoV,
+                             Eigen::PlainObjectBase<DerivedIsoE>& isoE);
+
 }
 
 #ifndef IGL_STATIC_LIBRARY

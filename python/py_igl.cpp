@@ -203,4 +203,7 @@ void python_export_igl(py::module &m)
 #include "py_igl/py_writePLY.cpp"
 #include "py_igl/py_readPLY.cpp"
 #include "py_igl/py_seam_edges.cpp"
+#include "py_igl/py_isolines.cpp"
+#include "py_igl/py_writeDMAT.cpp"
+#include "py_igl/py_remove_unreferenced.cpp"
 }
